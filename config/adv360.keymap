@@ -43,11 +43,11 @@
 
         Base {
             bindings = <
-&none  &none             &none             &none          &none               &none  &none                                                      &none              &none  &none           &none          &none              &none           &none
-&none  &kp Q             &kp W             &kp F          &kp P               &kp B  &none                                                      &none              &kp J  &kp L           &kp U          &kp Y              &kp APOSTROPHE  &none
-&none  &u_mt LEFT_GUI A  &u_mt LEFT_ALT R  &u_mt LCTRL S  &u_mt LEFT_SHIFT T  &kp G  &none      &lt 6 ESCAPE  &none      &none  &u_lt 2 DELETE  &none              &kp M  &u_mt RSHIFT N  &u_mt RCTRL E  &u_mt RIGHT_ALT I  &u_mt RGUI O    &none
-&none  &u_lt 7 Z         &kp X             &kp C          &kp D               &kp V                           &none      &none                                     &kp K  &kp H           &kp COMMA      &kp DOT            &u_lt 7 SLASH   &none
-&none  &none             &none             &none          &none                      &lt 5 TAB  &lt 4 SPACE   &none      &none  &u_lt 1 ENTER   &u_lt 3 BACKSPACE         &none           &none          &none              &none           &none
+&tog 8  &none             &none             &none          &none               &none  &none                                                      &none              &none  &none           &none          &none              &none           &none
+&none   &kp Q             &kp W             &kp F          &kp P               &kp B  &none                                                      &none              &kp J  &kp L           &kp U          &kp Y              &kp APOSTROPHE  &none
+&none   &u_mt LEFT_GUI A  &u_mt LEFT_ALT R  &u_mt LCTRL S  &u_mt LEFT_SHIFT T  &kp G  &none      &lt 6 ESCAPE  &none      &none  &u_lt 2 DELETE  &none              &kp M  &u_mt RSHIFT N  &u_mt RCTRL E  &u_mt RIGHT_ALT I  &u_mt RGUI O    &none
+&none   &u_lt 7 Z         &kp X             &kp C          &kp D               &kp V                           &none      &none                                     &kp K  &kp H           &kp COMMA      &kp DOT            &u_lt 7 SLASH   &none
+&none   &none             &none             &none          &none                      &lt 5 TAB  &lt 4 SPACE   &none      &none  &u_lt 1 ENTER   &u_lt 3 BACKSPACE         &none           &none          &none              &none           &none
             >;
         };
 
@@ -123,11 +123,11 @@
 
         Additional {
             bindings = <
-&none  &none        &none  &none  &none  &none  &none                                  &none  &none  &none  &none  &none  &none        &none
-&none  &bootloader  &none  &none  &none  &none  &none                                  &none  &none  &none  &none  &none  &bootloader  &none
-&none  &none        &none  &none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none  &none  &none        &none
-&none  &none        &none  &none  &none  &none                &none      &none                &none  &none  &none  &none  &none        &none
-&none  &none        &none  &none  &none         &none  &none  &none      &none  &none  &none         &none  &none  &none  &none        &none
+&tog 0  &none        &none  &none  &none  &none  &none                                  &none  &none  &none  &none  &none  &none        &none
+&none   &bootloader  &none  &none  &none  &none  &none                                  &none  &none  &none  &none  &none  &bootloader  &none
+&none   &none        &none  &none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none  &none  &none        &none
+&none   &none        &none  &none  &none  &none                &none      &none                &none  &none  &none  &none  &none        &none
+&none   &none        &none  &none  &none         &none  &none  &none      &none  &none  &none         &none  &none  &none  &none        &none
             >;
         };
     };
